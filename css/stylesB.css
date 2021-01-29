@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+body{
+  background-color: black;
+  font-size: 300%;
+  margin: 50px;
+
+}
+footer{
+  padding-top: 80px;
+  font-size: 60%;
+  color: white;
+}
+
+figure{
+  margin: auto;
+  display:grid;
+  grid-template-columns:repeat(5,minmax(100px, 650px));
+  gap: 5px;
+  width:100%;
+
+/*   this is the size of your container */
+
+
+}
+h1 {
+  font-size: 75px;
+  text-align: center;
+  font-family: 'Sarabun', sans-serif;
+  color: #86c033;
+}
+img{
+
+  max-width: 100%
+  /* display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+
+
+  align-content: center; */
+}
+
+h1 {
+  color:#86c033;
+  text-align: center;
+
+}
+nav{
+
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+
+
+}
+nav > a{
+  text-decoration:none;
+  text-transform: uppercase;
+  width:150px;
+  text-align:center;
+}
+@media screen and (max-width:480px) {
+body{
+  width: 95%;
+
+}
+h1{
+  text-align: center;
+
+}
+img{
+  margin: auto;
+  max-width: 100%
+}
+figure{
+  margin: auto;
+  display:grid;
+  grid-template-columns:repeat(1,minmax(100px, 650px));
+  gap: 5px;
+  width:100%;
+
+/*   this is the size of your container */
+
+
+}
+}
