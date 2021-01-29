@@ -2,7 +2,7 @@
 
 body{
   font-size:200%;
-  background-color:  black;
+  background-color: #222629;
   color:#86c033;
   font-family: 'Sarabun', sans-serif;
 
@@ -23,7 +23,6 @@ h1{
 }
 .ah{
   text-indent: 50px;
-  font-size: 18px;
   font-weight: bolder;
 }
 h2{
@@ -45,7 +44,7 @@ footer{
   color: white;
 }
 nav{
-  color:white;
+
   display:flex;
   flex-direction:row;
   justify-content:space-between;
@@ -57,6 +56,11 @@ nav > a{
   text-transform: uppercase;
   width:150px;
   text-align:center;
+  color:#86c033;
+}
+
+p > a{
+    color:#86c033;
 }
 @media screen and (min-width:480px) {
 body{

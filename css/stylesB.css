@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
 body{
-  background-color: black;
+  background-color: #222629;
   font-size: 300%;
   margin: 50px;
 
@@ -58,6 +58,10 @@ nav > a{
   text-transform: uppercase;
   width:150px;
   text-align:center;
+    color:#86c033;
+}
+p > a{
+    color:#86c033;
 }
 @media screen and (max-width:480px) {
 body{

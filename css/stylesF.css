@@ -5,8 +5,7 @@ body{
   font-size: 200%;
   width: 50%;
   margin: auto;
-  background-color:  black
-  ;
+  background-color: #222629;
   color:#86C232;
   font-family: 'Sarabun', sans-serif;
 }
@@ -35,7 +34,9 @@ nav > a{
   text-transform: uppercase;
   width:150px;
   text-align:center;
+  color:#86c033;
 }
+
 @media screen and (max-width:480px) {
 body{
   width: 95%;
