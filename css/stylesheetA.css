@@ -63,8 +63,10 @@ nav > a{
   text-align:center;
   color:#86c033;
 }
+
 p > a{
     color:#86c033;
+    font-size: 60%;
 }
 @media screen and (min-width:480px) {
 body{

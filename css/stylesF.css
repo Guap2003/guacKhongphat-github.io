@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
 
 body{
-  font-size: 200%;
+  font-size: 300%;
   width: 50%;
   margin: auto;
   background-color: #222629;
@@ -35,6 +35,12 @@ nav > a{
   width:150px;
   text-align:center;
   color:#86c033;
+}
+p > a{
+    color:#86c033;
+}
+h3{
+  font-size: 130%;
 }
 
 @media screen and (max-width:480px) {
